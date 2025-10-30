@@ -24,8 +24,8 @@ def main():
 
     # ... oppure passando un oggetto della classe opportuna, se definita
 
-    #u = UserDTO(8, "Chiara Grigi", "+86 78545321")
-    #users_dao.addUser(u)
+    #u  = UserDTO(11, "Luigi Arancioni", "+37 86754512")
+    # users_dao.addUser(u)
 
     # Analogamente per ottenere un elenco (lista) degli utenti (come stringhe o oggetti)
 

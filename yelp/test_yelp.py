@@ -1,0 +1,2 @@
+# LINK DA CUI SCARICARE LO SCRIPT SQL ED I FILE CSV PER CREARE E POPOLARE IL DATABASE YELP
+# https://www.dropbox.com/scl/fi/e85q3n1kc9nwmphw2d8e6/Yelp.zip?rlkey=lwjeqf98lvt6wro37157mkmxp&st=vke2n7ys&dl=0

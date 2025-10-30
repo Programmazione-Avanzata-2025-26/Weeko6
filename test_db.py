@@ -2,7 +2,10 @@ import mysql.connector
 
 # localhost oppure 127.0.0.1 significano calcolatore locale
 
-#cnx = mysql.connector.connect(user='root', password='', host='localhost',database='pa')
+#cnx = mysql.connector.connect(user='root',
+#                              password='',
+#                              host='localhost',
+#                              database='pa')
 
 cnx = mysql.connector.connect(option_files="db.cnf")
 

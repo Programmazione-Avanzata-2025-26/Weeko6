@@ -1,20 +1,21 @@
 # Classe utilizzata come DTO, per "mappare" una riga
 # della tabella User del database in un oggetto Python
+from dataclasses import dataclass
 
+@dataclass
 class UserDTO:
-    def __init__(self, id, name, phone): # Con gli attributi (colonne) della tabella
-        self.id = id
-        self.name = name
-        self.phone = phone
+    id : int
+    name : str
+    phone : str
 
     def __str__(self):
-        return f"{self.id}, {self.name}, {self.phone}"
+        return str(self.id)+" "+self.name+" "+self.phone
 
     def __eq__(self, other):
         return self.id == other.id
 
     def __lt__(self, other):
-        return self.id - other.id
+        return self.id < other.id
 
     def __hash__(self):
         return hash(self.id)
